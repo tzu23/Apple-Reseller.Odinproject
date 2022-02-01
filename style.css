@@ -129,7 +129,8 @@ button:hover {
   font-style: italic;
   font-family: roboto;
   font-size: 40px;
-  margin: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   padding: 140px;
 }
 .quote-author {
@@ -170,13 +171,13 @@ button:hover {
   margin-top: -15px;
 }
 .footer {
-  background-color: #1F2937;
+  background-color: #1f2937;
   color: white;
   font-size: 13px;
   font-family: arial;
   font-weight: 1;
   padding: 20px;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
