@@ -75,43 +75,34 @@ button:hover {
   display: flex;
   justify-content: center;
 }
-.squares {
+.products {
   display: flex;
   justify-content: center;
   gap: 70px;
 }
-.squares img {
-    display:Flex;
+.products img {
+  display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
+  width: 100%;
   height: auto;
 }
-.square1 {
+
+.product-container {
+  width: 200px;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 4px solid #3882f6;
   border-radius: 10px;
   width: 200px;
   height: 200px;
 }
 
-.square2 {
-  border: 4px solid #3882f6;
-  border-radius: 10px;
-  width: 200px;
-  height: 200px;
-}
-
-.square3 {
-  border: 4px solid #3882f6;
-  border-radius: 10px;
-  width: 200px;
-  height: 200px;
-}
-
-.square4 {
-  border: 4px solid #3882f6;
-  border-radius: 10px;
-  width: 200px;
-  height: 200px;
-
+.product-description {
+  margin-top: 10px;
+  text-align: center;
 }
